@@ -1,0 +1,9 @@
+getwd()
+
+setwd("C:/Users/Amaresh-PC/Documents/Amma 2017/Data")
+
+install.packages("data.table")
+install.packages("datasets")
+View(women)
+height_avg = mean(women$height)
+weight_avg = mean(women$weight)
