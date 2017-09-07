@@ -1,7 +1,7 @@
 #Create a normally distributed variable for the income with specified mean and SD
-n_income=rnorm(10,mean=250000,sd=75000)
+norm_income=rnorm(10,mean=250000,sd=75000)
 
-n_income
+norm_income
 
 #Create a 'gender' vector with 10 females
 gender=c(rep("F",10))
@@ -19,5 +19,6 @@ for(q in 1:10){
 }
 gender
 
-Custs <-data.frame(ID=1:10,INCOME <- n_income, GENDER = gender)
+Custs <-data.frame(ID=1:10,INCOME <- norm_income, GENDER = gender)
 View(Custs)
+#End
